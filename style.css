@@ -2,4 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #272727;
+    color: #FFFFFF;
+}
+
+/* CSS INDEX */
+.img-index {
+    width: 100%;
+    height: auto;
+}
+
+.container-index-img-article {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin: 5vw;
+    position: relative;
+}
+
+.content-index-img-article {
+    position: absolute;
+    background-color: black;
+    bottom: 0%;
+    
 }
