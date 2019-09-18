@@ -1,15 +1,48 @@
-* { 
+
+@font-face {
+    font-family: "Stellar";
+    src: url("fonts/Stellar-light.otf");
+ }
+ @font-face {
+    font-family: "Anurati";
+    src: url("fonts/Anurati-Regular.otf");
+ }
+ @font-face {
+    font-family: "Mylodon";
+    src: url("fonts/Mylodon-Light.otf");
+ }
+
+ * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #272727;
     color: #FFFFFF;
 }
+body {
+    background-color: #272727;
+}
+
 
 /* CSS INDEX */
+.index-title {
+    font-family: Mylodon;
+    padding: 2px;
+    color: #FF007F;
+}
+.index-p {
+    font-family: Stellar;
+    padding: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.index-links {
+    color: #4D4DFF;
+    text-decoration: none;
+}
 .img-index {
     width: 100%;
     height: auto;
+
 }
 
 .container-index-img-article {
@@ -18,11 +51,58 @@
     max-width: 90vw;
     margin: 5vw;
     position: relative;
+
 }
 
 .content-index-img-article {
     position: absolute;
-    background-color: black;
-    bottom: 0%;
+    bottom: 0;
+    background: rgb(0, 0,0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding-left: 20px;   
+    padding-right: 20px;
+}
+/* CSS INDEX DESKTOP */
+
+@media screen and (min-width: 960px) {
+    * {
+        background-color: #272727;
+    }
+    .img-index {
+        width: 100;
+        height: auto;
+        border: 1px solid #4D4DFF;
+    }
+    .content-index-img {
+        width: 25%;
+    }
+    .container-index-img-article {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: static;
+        height: 100%;
+        
+    }
+    .content-index-img-article {
+        position: static;
+        width: 75%;
+        background: #272727;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .index-title {
+        letter-spacing: 0.7em;
+        margin-top: 10px;
     
+    }
+    .index-p {
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        margin-bottom: 10px;
+        line-height: 120%;
+       
+    }
 }
