@@ -81,6 +81,8 @@ em {
 }
 
 .videoArticle {
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     max-width: 80%;
     margin: auto;
