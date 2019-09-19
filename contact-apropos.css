@@ -175,7 +175,7 @@ label > ul li:hover .deroulant-menu {
 .titre_contact {
     color: #4d4dff;
     font-family: "Mylodon";
-    text-align: center;
+    text-align: right;
     padding: 2rem;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -186,6 +186,7 @@ label > ul li:hover .deroulant-menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
     margin-bottom: 25px;
 }
 
@@ -245,15 +246,6 @@ label > ul li:hover .deroulant-menu {
 
 /*********************************************************************** Page à propos **/
 
-.titre_portraits {
-    margin-top: 50px;
-    color: #4d4dff;
-    font-family: "Mylodon";
-    text-align: center;
-    padding: 2rem;
-    margin-bottom: 20px;
-}
-
 .description_generale {
     display: flex;
     flex-direction: column;
@@ -280,6 +272,14 @@ label > ul li:hover .deroulant-menu {
     /* padding-right: 15px; */
 }
 
+.titre_portraits {
+    margin-top: 50px;
+    color: #4d4dff;
+    font-family: "Mylodon";
+    text-align: right;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
 
 .container_portraits {
     display: flex;
@@ -302,7 +302,7 @@ label > ul li:hover .deroulant-menu {
 .portrait {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .texte_portrait {
@@ -491,21 +491,19 @@ footer a:hover {
     .portrait_ligne1 {
         display: flex;
         flex-direction: row;
-        align-content: space-evenly;
     }
 
     .portrait_ligne2 {
         display: flex;
         flex-direction: row;
-        align-content: space-evenly;
-
     }
 
-
+    #portrait_inverse {
+        order: -1;
+    }
 
     .portrait {
         padding: 3em;
-        
     }
 
     .photo_portrait {
@@ -516,7 +514,5 @@ footer a:hover {
         margin-top: 222px;
     }
 
-    .titre_contact {
-        margin-top: 220px;
-    }
+
 }
