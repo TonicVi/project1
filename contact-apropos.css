@@ -20,11 +20,10 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    background-color: #272727;
 }
 
-/* HEADER-MAIN */
+/************************************************************************************ HEADER-MAIN */
 
 .header {
     background-image: radial-gradient(#ff007f, #2b2b99, #272727);
@@ -53,7 +52,7 @@ body {
 }
 
 .header li a:hover {
-    color: #272727;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -68,7 +67,7 @@ body {
 }
 
 .header-title:hover {
-    color: #272727;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -82,9 +81,10 @@ body {
     float: right;
     height: 25px;
     width: 75px;
+    font-size: 1rem;
 }
 
-/* HEADER - MENU */
+/*******************************************************************HEADER - MENU */
 
 .menu-header {
     clear: both;
@@ -93,7 +93,7 @@ body {
     font-size: 1.5em;
 }
 
-/* HEADER - MENU ICON */
+/******************************************************************* HEADER - MENU ICON */
 
 .menu-icon {
     cursor: pointer;
@@ -139,7 +139,7 @@ label > ul li:hover .deroulant-menu {
     display: block;
 }
 
-/* HEADER - MENU BTN */
+/**************************************************************************** HEADER - MENU BTN */
 
 .menu-btn {
     display: none;
@@ -170,7 +170,173 @@ label > ul li:hover .deroulant-menu {
     display: none;
 }
 
-/*FOOTER*/
+/******************************************************************* Page contact **/
+
+.titre_contact {
+    color: #4d4dff;
+    font-family: "Mylodon";
+    text-align: right;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.flex_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_mail,
+.input_name,
+.zone_de_texte,
+.verif_robot,
+.checkbox,
+.send_button {
+    color: #ff007f;
+    font-family: "Stellar";
+}
+
+.zone_de_texte,
+.input_mail,
+.input_name {
+    width: 60%;
+    background: #272727;
+    resize: none;
+    border: 2px dotted #4d4dff;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.zone_de_texte {
+    height: 200px;
+}
+
+.verif_robot_align {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    font-size: 20px;
+}
+
+.verif_robot {
+    margin-right: 1rem;
+}
+
+.checkbox {
+    transform: scale(1.1);
+}
+
+.send_button {
+    background: #272727;
+    resize: none;
+    border: 2px dotted #4d4dff;
+    padding: 1em 2em;
+}
+
+.send_button:hover {
+    background: #4d4dff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/*********************************************************************** Page à propos **/
+
+.description_generale {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+.titre_general {
+    color: #ff007f;
+    text-transform: uppercase;
+    font-family: "Stellar";
+    letter-spacing: 0.3em;
+    margin-bottom: 25px;
+}
+
+.texte_description_generale {
+    font-family: "Stellar";
+    color: white;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+    line-height: 150%;
+    /* padding-right: 15px; */
+}
+
+.titre_portraits {
+    margin-top: 50px;
+    color: #4d4dff;
+    font-family: "Mylodon";
+    text-align: right;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.container_portraits {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+.photo_portrait {
+    width: 70%;
+    height: auto;
+    min-width: 80px;
+    margin-right: 1rem;
+    border: 2px dotted #ff007f;
+    padding: 0.2em;
+    margin-bottom: 30px;
+}
+
+.portrait {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texte_portrait {
+    display: flex;
+    flex-direction: column;
+    color: #ff007f;
+    font-family: "Stellar";
+    margin-bottom: 1rem;
+}
+
+.description_portrait {
+    color: white;
+    text-align: justify;
+    margin: 0.4rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1em;
+    line-height: 120%;
+}
+
+.nom_portrait,
+.titre_portrait {
+    text-align: right;
+    padding: 0.3rem;
+    letter-spacing: 0.3em;
+}
+
+.titre_portrait {
+    color: #ff007f;
+    text-transform: uppercase;
+    font-family: "Stellar";
+}
+.nom_portrait {
+    margin-bottom: 0.5rem;
+    color: #4d4dff;
+}
+
+/*******************************************************************************FOOTER*/
 
 footer {
     width: 100%;
@@ -185,10 +351,11 @@ footer {
     height: 60px;
     justify-content: space-between;
     padding-bottom: 5px;
+    margin-bottom: 0;
 }
 
 footer a:hover {
-    color: white;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -222,13 +389,14 @@ footer a:hover {
     height: auto;
 }
 
-/*MEDIA QUERIES 960PX*/
+/**************************************************MEDIA QUERIES 960PX*/
 
 @media screen and (min-width: 960px) {
-    /* HEADER */
+    /******************************** HEADER */
 
     .header {
         background-image: none;
+        background-color: #272727;
     }
 
     .header-title {
@@ -256,7 +424,7 @@ footer a:hover {
         width: 150px;
     }
 
-    /* BANNIERE */
+    /************************************ BANNIERE */
 
     .banniere {
         display: inline;
@@ -267,8 +435,7 @@ footer a:hover {
         height: 150px;
         box-shadow: 1px 1px 4px 0 black;
     }
-
-    /*FOOTER*/
+    /**************************************FOOTER*/
 
     .footer-links {
         flex-direction: row;
@@ -292,13 +459,9 @@ footer a:hover {
         height: auto;
         margin: 0 10px;
     }
-    /* 
-    .facebook {
-        margin-right: 60px;
-    } */
 }
 
-/*MEDIA QUERIES 1300PX*/
+/****************************************************MEDIA QUERIES 1300PX*/
 
 @media screen and (min-width: 1300px) {
     /*HEADER*/
@@ -309,5 +472,54 @@ footer a:hover {
     .header li a {
         padding-left: 35px;
         letter-spacing: 3px;
+    }
+}
+
+/************************************************** Media queries pour le format Desktop **/
+
+@media screen and (min-width: 1200px) {
+    .container_portraits {
+        display: flex;
+        flex-direction: row;
+        max-width: 95%;
+        justify-content: center;
+    }
+
+    .portrait_ligne1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .portrait_ligne2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #portrait_inverse {
+        order: -1;
+    }
+
+    .portrait {
+        padding: 3em;
+    }
+
+    .photo_portrait {
+        min-width: 170px;
+    }
+
+    .titre_portraits {
+        margin-top: 222px;
+    }
+
+    #johann {
+        margin-top: 17px;
+    }
+
+    #lea {
+        margin-top: 45px;
+    }
+
+    #lea-nom {
+        margin-bottom: 0;
     }
 }
