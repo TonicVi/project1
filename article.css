@@ -80,9 +80,23 @@ em {
    color: #ff007f; 
 }
 
+.videoArticle {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+
 @media screen and (min-width: 960px) {
     .contenu-article {
         font-size: 20px;
     }
-
-@media screen and (max-width: 680px)
+}
+@media screen and (max-width: 700px) {
+    .crelou {
+        max-width: 80%;
+        line-height: 110%;
+    }
+    .titresecond {
+        line-height: 50px;
+    }  
+}
