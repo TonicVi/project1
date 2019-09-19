@@ -84,4 +84,5 @@ em {
     .contenu-article {
         font-size: 20px;
     }
-}
+
+@media screen and (max-width: 680px)
