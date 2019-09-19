@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="contact-apropos.css"/>
+    <title>Dystophoria - Contact</title>
 </head>
 <body>
 
-    <form>
-        <h2>Terminal de contact</h2>
-        <input type="text" placeholder="@">
-        <textarea placeholder="Your message"></textarea>
-        <p>Je ne suis pas (encore) un robot</p>
-        <input type="checkbox">
-        <label for="sendbutton">
-        <input type="submit" id="sendbutton" class="sendbutton" value="Envoyer !">
-        </label>
+    <form class="form_de_contact">
+        <h1 class="titre_contact">Terminal de contact</h1>
+        <div class="flex_form">
+            <input type="text" class="input_name" placeholder="I.D.">
+            <input type="text" class="input_mail" placeholder="@">
+            <textarea placeholder="Entrez votre requête..." class="zone_de_texte"></textarea>
+            <section class="verif_robot_align">
+                <p class="verif_robot">Je ne suis pas (encore) un robot</p>
+                <input type="checkbox" class="checkbox">
+            </section>
+            <label for="sendbutton">
+            <input type="submit" id="sendbutton" class="send_button" value="Envoyer !">
+            </label>
+        </div>
     </form>
-
-
 
 </body>
 </html>
