@@ -553,5 +553,9 @@ footer a:hover {
     footer {
         position: fixed;
         bottom: 0;
+
+@media screen and (max-width: 500px) {
+    .photo_portrait {
+        display: none;
     }
 }
