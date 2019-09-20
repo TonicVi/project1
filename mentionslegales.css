@@ -49,6 +49,7 @@ h1 {
     font-family: Stellar;
     line-height: 200%;
     letter-spacing: 0.2rem;
+    text-align: center;
 }
 .listeMentions li a {
     text-decoration: none;
