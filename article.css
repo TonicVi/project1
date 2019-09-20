@@ -5,8 +5,7 @@
 }
 
 body {
-
-    background-color: #272727; 
+    background-color: #272727;
 }
 @font-face {
     font-family: "Stellar";
@@ -52,7 +51,7 @@ body {
 }
 
 .header li a:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -67,7 +66,7 @@ body {
 }
 
 .header-title:hover {
-    color:#4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -110,7 +109,8 @@ body {
     width: 18px;
 }
 
-.burger:before, .burger:after {
+.burger:before,
+.burger:after {
     background: white;
     content: "";
     display: block;
@@ -133,7 +133,7 @@ body {
     background-image: radial-gradient(#ff007f, #2b2b99, #272727);
 }
 
-label>ul li:hover .deroulant-menu {
+label > ul li:hover .deroulant-menu {
     display: block;
 }
 
@@ -143,23 +143,24 @@ label>ul li:hover .deroulant-menu {
     display: none;
 }
 
-.menu-btn:checked~.menu-header {
+.menu-btn:checked ~ .menu-header {
     max-height: 340px;
 }
 
-.menu-btn:checked~.menu-icon .burger {
+.menu-btn:checked ~ .menu-icon .burger {
     background: transparent;
 }
 
-.menu-btn:checked~.menu-icon .burger:before {
+.menu-btn:checked ~ .menu-icon .burger:before {
     transform: rotate(-45deg);
 }
 
-.menu-btn:checked~.menu-icon .burger:after {
+.menu-btn:checked ~ .menu-icon .burger:after {
     transform: rotate(45deg);
 }
 
-.menu-btn:checked~.menu-icon:not(.steps) .burger:before, .menu-btn:checked~.menu-icon:not(.steps) .burger:after {
+.menu-btn:checked ~ .menu-icon:not(.steps) .burger:before,
+.menu-btn:checked ~ .menu-icon:not(.steps) .burger:after {
     top: 0;
 }
 
@@ -185,7 +186,7 @@ footer {
 }
 
 footer a:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -213,7 +214,8 @@ footer a:hover {
     align-content: center;
 }
 
-.facebook, .twitter {
+.facebook,
+.twitter {
     margin-top: 5px;
     width: 20px;
     height: auto;
@@ -277,7 +279,8 @@ footer a:hover {
         align-items: center;
         padding-top: 5px;
     }
-    .facebook, .twitter {
+    .facebook,
+    .twitter {
         width: 35px;
         height: auto;
         margin: 0 10px;
@@ -317,13 +320,13 @@ footer a:hover {
 .titrarticle {
     font-family: "Mylodon";
     text-align: center;
-    color: #4D4DFF;
+    color: #4d4dff;
+    margin-top: 50px;
 }
 
 .ccar li a {
     text-decoration: none;
     color: #ff007f;
-
 }
 
 .ccar li a:visited {
@@ -354,7 +357,7 @@ footer a:hover {
 
 .contenu-article {
     font-family: "Stellar";
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 10px;
     letter-spacing: 0.2em;
 }
