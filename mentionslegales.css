@@ -45,7 +45,7 @@ h1 {
 .listeMentions p {
     font-family: Mylodon;
     color: #FF007F;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .listeMentions ul {
     list-style: none;
@@ -60,8 +60,7 @@ h1 {
     color: #4D4DFF;
 }
 footer {
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 .header {
