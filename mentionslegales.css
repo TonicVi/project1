@@ -60,8 +60,9 @@ h1 {
     color: #4D4DFF;
 }
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+
 }
 
 .header {
@@ -223,6 +224,7 @@ footer {
     height: 60px;
     justify-content: space-between;
     padding-bottom: 5px;
+    
 }
 
 footer a:hover {
@@ -264,16 +266,14 @@ footer a:hover {
 
 @media screen and (min-width: 960px) {
     /* HEADER */
-    body {
+    .aide-title {
         margin-top: 222px;
     }
     .listeMentions {
         font-size: 24px;
         margin-bottom: 50px;
     }
-    .index-under-nav {
-        margin-top: 222px;
-    }
+    
     .header {
         background-image: none;
         background-color: #272727;
@@ -336,9 +336,7 @@ footer a:hover {
         height: auto;
         margin: 0 10px;
     }
-    footer {
-       position: relative;
-    }
+
     /* 
     .facebook {
         margin-right: 60px;
