@@ -197,6 +197,9 @@ label > ul li:hover .deroulant-menu {
     color: #ff007f;
     font-family: "Stellar";
 }
+::placeholder {
+    color: #ff007f;
+}
 
 .zone_de_texte,
 .input_mail,
@@ -443,7 +446,10 @@ footer a:hover {
         box-shadow: 1px 1px 4px 0 black;
     }
     /**************************************FOOTER*/
-
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
     .footer-links {
         flex-direction: row;
         align-items: center;
