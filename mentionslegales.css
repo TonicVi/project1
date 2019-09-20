@@ -334,11 +334,7 @@ footer a:hover {
         height: auto;
         margin: 0 10px;
     }
-    footer {
-       position: absolute;
-        bottom: 0;
-        margin-bottom: -100px;
-    }
+
     /* 
     .facebook {
         margin-right: 60px;
