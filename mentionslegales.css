@@ -60,8 +60,7 @@ h1 {
     color: #4D4DFF;
 }
 footer {
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 .header {
