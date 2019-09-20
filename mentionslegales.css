@@ -336,7 +336,8 @@ footer a:hover {
         margin: 0 10px;
     }
     footer {
-       position: relative;
+       position: absolute;
+        bottom: 0;
     }
     /* 
     .facebook {
