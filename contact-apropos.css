@@ -175,9 +175,9 @@ label > ul li:hover .deroulant-menu {
 .titre_contact {
     color: #4d4dff;
     font-family: "Mylodon";
-    text-align: right;
+    text-align: center;
     padding: 2rem;
-    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .flex_form {
@@ -185,6 +185,7 @@ label > ul li:hover .deroulant-menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .input_mail,
@@ -287,9 +288,10 @@ label > ul li:hover .deroulant-menu {
 }
 
 .photo_portrait {
-    width: 70%;
+    max-width: 2em;
+    min-width: 10em;
     height: auto;
-    min-width: 80px;
+
     margin-right: 1rem;
     border: 2px dotted #ff007f;
     padding: 0.2em;
@@ -393,6 +395,11 @@ footer a:hover {
 
 @media screen and (min-width: 960px) {
     /******************************** HEADER */
+    
+    body {
+        margin-top: 220px;
+
+    }
 
     .header {
         background-image: none;
@@ -478,6 +485,30 @@ footer a:hover {
 /************************************************** Media queries pour le format Desktop **/
 
 @media screen and (min-width: 1200px) {
+
+    body {
+        margin-top: 220px;
+
+    }
+
+    .titre_contact {
+        color: #4d4dff;
+        font-family: "Mylodon";
+        text-align: center;
+        padding: 2rem;
+        margin-top: 220px;
+    }
+
+    .photo_portrait {
+        max-width: 254px;
+        min-width: 254px;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 1588px) {
+
     .container_portraits {
         display: flex;
         flex-direction: row;
@@ -509,17 +540,5 @@ footer a:hover {
 
     .titre_portraits {
         margin-top: 222px;
-    }
-
-    #johann {
-        margin-top: 17px;
-    }
-
-    #lea {
-        margin-top: 45px;
-    }
-
-    #lea-nom {
-        margin-bottom: 0;
     }
 }
