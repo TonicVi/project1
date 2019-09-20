@@ -1,35 +1,33 @@
-
 @font-face {
     font-family: "Stellar";
     src: url("fonts/Stellar-light.otf");
- }
- @font-face {
+}
+@font-face {
     font-family: "Anurati";
     src: url("fonts/Anurati-Regular.otf");
- }
- @font-face {
+}
+@font-face {
     font-family: "Mylodon";
     src: url("fonts/Mylodon-Light.otf");
- }
+}
 
- * { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
 }
 body {
     background-color: #272727;
     display: flex;
     flex-direction: column;
+    color: #ffffff;
 }
-
 
 /* CSS INDEX */
 .index-title {
     font-family: Mylodon;
     padding: 2px;
-    color: #FF007F;
+    color: #ff007f;
 }
 .index-p {
     font-family: Stellar;
@@ -38,13 +36,12 @@ body {
     text-justify: inter-word;
 }
 .index-links {
-    color: #4D4DFF;
+    color: #4d4dff;
     text-decoration: none;
 }
 .img-index {
     width: 100%;
     height: auto;
-
 }
 
 .container-index-img-article {
@@ -53,19 +50,21 @@ body {
     max-width: 90vw;
     margin: 5vw;
     position: relative;
-
 }
 
 .content-index-img-article {
     position: absolute;
     bottom: 0;
-    background: rgb(0, 0,0);
+    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    padding-left: 20px;   
+    padding-left: 20px;
     padding-right: 20px;
 }
 
+.index-under-nav {
+    margin-top: 50px;
+}
 
 /* HEADER-MAIN */
 
@@ -96,7 +95,7 @@ body {
 }
 
 .header li a:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -111,7 +110,7 @@ body {
 }
 
 .header-title:hover {
-    color:#4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -231,7 +230,7 @@ footer {
 }
 
 footer a:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -313,15 +312,15 @@ footer a:hover {
         height: 150px;
         box-shadow: 1px 1px 4px 0 black;
     }
-/* CSS index-body */
+    /* CSS index-body */
     body {
         background-color: #272727;
     }
-    
+
     .img-index {
         width: 100%;
         height: auto;
-        border: 1px solid #4D4DFF;
+        border: 1px solid #4d4dff;
     }
     .content-index-img {
         width: 25%;
@@ -333,7 +332,6 @@ footer a:hover {
         justify-content: flex-start;
         position: static;
         height: 100%;
-        
     }
     .content-index-img-article {
         position: static;
@@ -341,19 +339,17 @@ footer a:hover {
         background: #272727;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     .index-title {
         letter-spacing: 0.7em;
         margin-top: 10px;
-    
     }
     .index-p {
         font-size: 20px;
         letter-spacing: 0.2em;
         margin-bottom: 10px;
         line-height: 120%;
-       
     }
 
     /*FOOTER*/
@@ -408,8 +404,5 @@ footer a:hover {
     .index-p {
         font-size: 16px;
         line-height: 100%;
-
     }
 }
-
- 
