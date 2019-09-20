@@ -32,7 +32,7 @@ h1 {
 }
 .aide-title {
     margin-top: 50px;
-    text-align: right;
+    text-align: center;
     padding: 2rem;
     margin-bottom: 20px;
 }
@@ -51,6 +51,7 @@ h1 {
     list-style: none;
     font-family: Stellar;
     line-height: 200%;
+    letter-spacing: 0.2rem;
 }
 .listeMentions li a {
     text-decoration: none;
@@ -334,6 +335,9 @@ footer a:hover {
         width: 35px;
         height: auto;
         margin: 0 10px;
+    }
+    footer {
+       position: relative;
     }
     /* 
     .facebook {
