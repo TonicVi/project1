@@ -1,22 +1,20 @@
-
 @font-face {
     font-family: "Stellar";
     src: url("fonts/Stellar-light.otf");
- }
- @font-face {
+}
+@font-face {
     font-family: "Anurati";
     src: url("fonts/Anurati-Regular.otf");
- }
- @font-face {
+}
+@font-face {
     font-family: "Mylodon";
     src: url("fonts/Mylodon-Light.otf");
- }
+}
 
- * { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
 }
 body {
     background-color: #272727;
@@ -24,11 +22,11 @@ body {
     font-family: Mylodon;
     display: flex;
     flex-direction: column;
+    color: #ffffff;
 }
 h1 {
     font-family: "Mylodon";
-    color: #4D4DFF;
-
+    color: #4d4dff;
 }
 .aide-title {
     margin-top: 50px;
@@ -40,11 +38,10 @@ h1 {
     text-decoration: none;
     max-width: 80%;
     margin: auto;
-  
 }
 .listeMentions p {
     font-family: Mylodon;
-    color: #FF007F;
+    color: #ff007f;
     margin-bottom: 60px;
 }
 .listeMentions ul {
@@ -55,14 +52,14 @@ h1 {
 }
 .listeMentions li a {
     text-decoration: none;
+    color: white;
 }
 .listeMentions li a:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
 }
 footer {
     position: fixed;
     bottom: 0;
-
 }
 
 .header {
@@ -92,7 +89,7 @@ footer {
 }
 
 .header li a:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -107,7 +104,7 @@ footer {
 }
 
 .header-title:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -223,11 +220,10 @@ footer {
     height: 60px;
     justify-content: space-between;
     padding-bottom: 5px;
-    
 }
 
 footer a:hover {
-    color: #4D4DFF;
+    color: #4d4dff;
     transition: color 0.3s;
 }
 
@@ -272,7 +268,7 @@ footer a:hover {
         font-size: 24px;
         margin-bottom: 50px;
     }
-    
+
     .header {
         background-image: none;
         background-color: #272727;
