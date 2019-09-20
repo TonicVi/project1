@@ -506,8 +506,8 @@ footer a:hover {
     }
 
     .photo_portrait {
-        max-width: 254px;
-        min-width: 254px;
+       /* max-width: 254px;
+        min-width: 254px;*/
         height: auto;
     }
 
