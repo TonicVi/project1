@@ -59,10 +59,7 @@ h1 {
 .listeMentions li a:hover {
     color: #4D4DFF;
 }
-footer {
-    position: absolute;
-    bottom: 0;
-}
+
 
 .header {
     background-image: radial-gradient(#ff007f, #2b2b99, #272727);
@@ -215,7 +212,6 @@ footer {
     background-image: radial-gradient(#2b2b99, #272727, #000000);
     box-shadow: 1px 1px 4px 0 black;
     text-align: center;
-    bottom: 0;
     font-size: 0.7rem;
     font-family: "Mylodon";
     display: flex;
@@ -341,6 +337,7 @@ footer a:hover {
     footer {
        position: absolute;
         bottom: 0;
+        margin-bottom: -100px;
     }
     /* 
     .facebook {
