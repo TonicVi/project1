@@ -548,3 +548,9 @@ footer a:hover {
         margin-top: 222px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .photo_portrait {
+        display: none;
+    }
+}
