@@ -59,7 +59,11 @@ h1 {
 .listeMentions li a:hover {
     color: #4D4DFF;
 }
+footer {
+    position: fixed;
+    bottom: 0;
 
+}
 
 .header {
     background-image: radial-gradient(#ff007f, #2b2b99, #272727);
@@ -219,8 +223,7 @@ footer {
     height: 60px;
     justify-content: space-between;
     padding-bottom: 5px;
-    position: absolute;
-    bottom: 0;
+    
 }
 
 footer a:hover {
@@ -262,16 +265,14 @@ footer a:hover {
 
 @media screen and (min-width: 960px) {
     /* HEADER */
-    body {
+    .aide-title {
         margin-top: 222px;
     }
     .listeMentions {
         font-size: 24px;
         margin-bottom: 50px;
     }
-    .index-under-nav {
-        margin-top: 222px;
-    }
+    
     .header {
         background-image: none;
         background-color: #272727;
